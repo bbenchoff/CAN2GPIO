@@ -24,7 +24,7 @@ int pin24 = 24;
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  //while (!Serial);
 
   Serial.println("CAN Receiver to GPIO / responds on address 0x420x\n0x00 makes a pin go low, 0xFF makes a pin go high");
 
@@ -125,9 +125,15 @@ void loop() {
     {
       dataBit = CAN.read();
       if(dataBit == 0x00)
+      {
         digitalWrite(pin13, LOW);
+        Serial.println("light go off");
+      }
       else if(dataBit = 0xFF)
+      {
         digitalWrite(pin13, HIGH);
+        Serial.println("light go on");
+      }
     }
   }
 }
