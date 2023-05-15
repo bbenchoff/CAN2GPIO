@@ -1,0 +1,671 @@
+VERSION "created by canmatrix"
+
+
+NS_ :
+
+BS_:
+
+BU_: User ADM_PC_LL25 ADM_PC_BC25 ADM_PC_BP25 ADM_PC_BI25 
+
+
+BO_ 2634514432 AFE_Identification_29: 8 ADM_PC_BP25
+ SG_ Device_type_29 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ HW_revision_29 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ HW_variant_29 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Stack_position_29 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ SN_number_29 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2634514433 AFE_FwInfo_29: 8 ADM_PC_BP25
+ SG_ FW_info_mux_29 M : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_0_29 m0 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_1_29 m0 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_2_29 m0 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_3_29 m0 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_4_29 m0 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_5_29 m0 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_6_29 m0 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_7_29 m1 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_8_29 m1 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_9_29 m1 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_10_29 m1 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_11_29 m1 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_12_29 m1 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_13_29 m1 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_0_29 m2 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_1_29 m2 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_2_29 m2 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_3_29 m2 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_4_29 m2 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_5_29 m2 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_6_29 m2 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_7_29 m3 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_8_29 m3 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_9_29 m3 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_10_29 m3 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_11_29 m3 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_12_29 m3 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_13_29 m3 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2634514445 _AFE_Boot_FwInfo_29: 8 ADM_PC_BP25
+ SG_ Boot_FW_info_mux_29 M : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_0_29 m0 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_1_29 m0 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_2_29 m0 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_3_29 m0 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_4_29 m0 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_5_29 m0 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_6_29 m0 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_7_29 m1 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_8_29 m1 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_9_29 m1 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_10_29 m1 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_11_29 m1 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_12_29 m1 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_revision_13_29 m1 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_0_29 m2 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_1_29 m2 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_2_29 m2 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_3_29 m2 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_4_29 m2 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_5_29 m2 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_6_29 m2 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_7_29 m3 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_8_29 m3 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_9_29 m3 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_10_29 m3 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_11_29 m3 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_12_29 m3 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FW_datecode_13_29 m3 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2634514434 AFE_Debug_29: 8 ADM_PC_BP25
+ SG_ Status_Error_Code_29 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Data_1_29 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Data_2_29 : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Data_3_29 : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2634514439 AFE_Status_29: 8 ADM_PC_BP25
+ SG_ Running_29 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PWM_29 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_dc_loop_mode_29 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_ac_loop_mode_29 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Buck_29 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Boost_29 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Precharge_dc_buck_mode_29 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Precharge_dc_boost_mode_29 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rectifier_3ph_29 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Stack_mode_29 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Master_29 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Slave_29 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inverter_1ph_29 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Boost_Neutral_29 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rectifier_1ph_29 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inverter_3ph_29 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Ready_29 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inverter_1ph_Sync_29 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Neutral_29 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rectifier_1ph_Buck_29 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inverter_1ph_Boost_29 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rectifier_distributed_29 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MPPT_buck_29 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MPPT_boost_29 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Buck_2p_float_29 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inverter_1ph_Distributed_29 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2634514438 AFE_Faults_29: 3 ADM_PC_BP25
+ SG_ Protection_trip_internal_29 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Protection_trip_external_29 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_U_overcurrent_29 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_U_overvoltage_29 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_U_undervoltage_29 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_V_overvoltage_29 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_V_undervoltage_29 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_V_overcurrent_29 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_W_overvoltage_29 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_W_undervoltage_29 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Phase_W_overcurrent_29 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DC_undervoltage_29 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DC_overvoltage_29 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOSFET_overtemperature_29 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Inductor_overtemperature_29 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Keep_Alive_not_served_29 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PLL_not_locked_29 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NFO_29 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Measurement_system_failure_29 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EEPROM_failure_29 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ System_29 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2634514435 AFE_Currents_29: 6 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1- (0.01,0) [-327.68|327.67] "A" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1- (0.01,0) [-327.68|327.67] "A" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1- (0.01,0) [-327.68|327.67] "A" Vector__XXX
+
+BO_ 2634514448 AFE_DC_Bus_current_29: 2 ADM_PC_BP25
+ SG_ Bus_current_29 : 0|16@1- (0.01,0) [-327.68|327.67] "A" Vector__XXX
+
+BO_ 2634514446 _AFE_Broadcast_29: 8 ADM_PC_BP25
+ SG_ Diagnostics_Index_29 M : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Phase_U_29 m1 : 8|16@1- (0.01,0) [-327.68|327.67] "A" ADM_PC_BP25
+ SG_ Phase_V_29 m1 : 24|16@1- (0.01,0) [-327.68|327.67] "A" ADM_PC_BP25
+ SG_ Phase_W_29 m1 : 40|16@1- (0.01,0) [-327.68|327.67] "A" ADM_PC_BP25
+ SG_ Stack_position_29 : 0|5@1+ (1,0) [0|31] "" ADM_PC_BP25
+ SG_ Group_ID_29 : 5|3@1+ (1,0) [0|7] "" ADM_PC_BP25
+
+BO_ 2634514436 AFE_Voltages_29: 8 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1- (0.1,0) [-3276.8|3276.7] "V" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1- (0.1,0) [-3276.8|3276.7] "V" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1- (0.1,0) [-3276.8|3276.7] "V" Vector__XXX
+ SG_ DC_29 : 48|16@1- (0.1,0) [-3276.8|3276.7] "V" Vector__XXX
+
+BO_ 2634514442 AFE_Voltages_RMS_29: 6 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+
+BO_ 2634514443 AFE_Currents_RMS_29: 6 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1+ (0.01,0) [0.00|655.35] "A" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1+ (0.01,0) [0.00|655.35] "A" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1+ (0.01,0) [0.00|655.35] "A" Vector__XXX
+
+BO_ 2634514444 AFE_Mains_29: 4 ADM_PC_BP25
+ SG_ Frequency_29 : 0|16@1+ (0.01,0) [0.00|655.35] "Hz" Vector__XXX
+ SG_ Phase_29 : 16|16@1- (0.1,0) [-3276.8|3276.7] "Deg." Vector__XXX
+
+BO_ 2634514437 AFE_Temperatures_29: 4 ADM_PC_BP25
+ SG_ Temp_Bridge_29 : 0|16@1- (0.01,0) [-327.68|327.67] "°C" Vector__XXX
+ SG_ Temp_Inductors_29 : 16|16@1- (0.01,0) [-327.68|327.67] "°C" Vector__XXX
+
+BO_ 2634514440 AFE_Setpoints_PWM_Duty_29: 6 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" Vector__XXX
+
+BO_ 2634514441 AFE_Setpoints_29: 6 ADM_PC_BP25
+ SG_ Current_setpoint_29 : 0|16@1- (0.01,0) [-327.68|327.67] "A" Vector__XXX
+ SG_ Voltage_setpoint_29 : 16|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ Frequency_setpoint_29 : 32|16@1+ (0.01,0) [0.00|655.35] "Hz" Vector__XXX
+
+BO_ 2634481760 AFE_Keep_Alive_29: 1 User
+ SG_ Keep_Alive_Enable_29 : 0|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+
+BO_ 2634481728 AFE_Mode_Control_29: 8 User
+ SG_ Converter_ON_29 : 0|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ PWM_ON_29 : 1|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ DC_Current_feedback_ON_29 : 2|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ AC_Current_feedback_ON_29 : 3|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Buck_ON_29 : 5|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Boost_ON_29 : 6|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Rectifier_3ph_ON_29 : 9|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Inverter_1ph_ON_29 : 10|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Rectifier_1ph_ON_29 : 11|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Boost_Neutral_ON_29 : 12|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Inverter_3ph_ON_29 : 13|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Inverter_1ph_Sync_ON_29 : 14|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Neutral_ON_29 : 15|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Rectifier_1ph_Buck_ON_29 : 16|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Inverter_1ph_Boost_ON_29 : 17|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Rectifier_Distributed_ON_29 : 18|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ MPPT_buck_ON_29 : 19|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ MPPT_boost_ON_29 : 20|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Buck_2p_float_ON_29 : 21|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Inverter_1ph_Distributed_ON_29 : 22|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+
+BO_ 2634481744 AFE_Fault_Control_29: 1 User
+ SG_ Clear_Interlock_29 : 0|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Reset_Processor_29 : 1|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Trip_Interlock_29 : 2|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+
+BO_ 2634481729 AFE_Reactive_Current_Setpoint_Co: 2 User
+ SG_ Reactive_current_setpoint_29 : 0|16@1- (0.01,0) [-150|150] "A" ADM_PC_BP25
+
+BO_ 2634481730 AFE_PWM_Duty_Control_29: 6 User
+ SG_ Phase_U_29 : 0|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" ADM_PC_BP25
+ SG_ Phase_V_29 : 16|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" ADM_PC_BP25
+ SG_ Phase_W_29 : 32|16@1+ (0.001525902,0) [0E-009|99.999987570] "%" ADM_PC_BP25
+
+BO_ 2634481731 AFE_Current_Setpoint_Control_29: 2 User
+ SG_ Current_setpoint_29 : 0|16@1- (0.01,0) [-150|150] "A" ADM_PC_BP25
+
+BO_ 2634481732 AFE_Voltage_Setpoint_Control_29: 2 User
+ SG_ Voltage_setpoint_29 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+
+BO_ 2634481736 AFE_Frequency_Setpoint_Control_2: 2 User
+ SG_ Frequency_setpoint_29 : 0|16@1+ (0.01,0) [40|70] "Hz" ADM_PC_BP25
+
+BO_ 2634481737 AFE_Phase_Setpoint_Control_29: 2 User
+ SG_ Phase_setpoint_29 : 0|16@1+ (1,0) [0|360] "deg" ADM_PC_BP25
+
+BO_ 2634481776 AFE_Rectifier_Setpoint_Control_2: 8 User
+ SG_ Voltage_setpoint_2_29 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+ SG_ Current_setpoint_2_29 : 16|16@1- (0.01,0) [-150|150] "A" ADM_PC_BP25
+
+BO_ 2634481733 AFE_Stack_Control_29: 6 User
+ SG_ Stack_position_29 : 0|8@1+ (1,0) [0|255] "" ADM_PC_BP25
+ SG_ Stack_size_29 : 8|8@1+ (1,0) [0|255] "" ADM_PC_BP25
+ SG_ SN_number_29 : 16|32@1+ (1,0) [0|4294967295] "" ADM_PC_BP25
+
+BO_ 2634481712 AFE_Voltage_Limits_29: 8 User
+ SG_ Phase_voltage_min_29 : 0|16@1- (0.1,0) [0|3276.7] "V" ADM_PC_BP25
+ SG_ Phase_voltage_max_29 : 16|16@1- (0.1,0) [-3276.8|850] "V" ADM_PC_BP25
+ SG_ DC_voltage_min_29 : 32|16@1- (0.1,0) [0|3276.7] "V" ADM_PC_BP25
+ SG_ DC_voltage_max_29 : 48|16@1- (0.1,0) [-3276.8|850] "V" ADM_PC_BP25
+
+BO_ 2634481713 AFE_Current_Limits_29: 4 User
+ SG_ Phase_current_min_29 : 0|16@1- (0.01,0) [-60|60] "A" ADM_PC_BP25
+ SG_ Phase_current_max_29 : 16|16@1- (0.01,0) [-60|60] "A" ADM_PC_BP25
+
+BO_ 2634481740 AFE_Group_Control_29: 1 User
+ SG_ Group_ID_29 : 0|8@1+ (1,0) [0|255] "" ADM_PC_BP25
+
+BO_ 2634514447 AFE_Group_Info_29: 1 ADM_PC_BP25
+ SG_ Group_ID_29 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2634481761 AFE_System_Flags_Control_29: 8 User
+ SG_ Factory_mode_29 : 0|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+ SG_ Silent_CAN_mode_29 : 1|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+
+BO_ 2634514464 _AFE_Currents_Raw_29: 8 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1- (1,0) [-32768|32767] "" Vector__XXX
+
+BO_ 2634514465 _AFE_Voltages_Raw_29: 8 ADM_PC_BP25
+ SG_ Phase_U_29 : 0|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ Phase_V_29 : 16|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ Phase_W_29 : 32|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ DC_29 : 48|16@1- (1,0) [-32768|32767] "" Vector__XXX
+
+BO_ 2634481738 _AFE_ADC_Calibration_Mode_29: 1 User
+ SG_ Calibration_Index_29 M : 2|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ Current_U_29 m1 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Current_V_29 m2 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Current_W_29 m3 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Voltage_U_29 m4 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Voltage_V_29 m5 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Voltage_W_29 m6 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ Voltage_DC_29 m7 : 0|2@1+ (1,0) [0|3] "" ADM_PC_BP25
+ SG_ start_29 : 7|1@1+ (1,0) [0|1] "" ADM_PC_BP25
+
+BO_ 2634481739 _AFE_ADC_Calibration_Setpoint_29: 3 User
+ SG_ Calibration_Index_29 M : 16|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ Current_U_29 m1 : 0|16@1- (0.01,0) [-100|100] "A" ADM_PC_BP25
+ SG_ Current_V_29 m2 : 0|16@1- (0.01,0) [-100|100] "A" ADM_PC_BP25
+ SG_ Current_W_29 m3 : 0|16@1- (0.01,0) [-100|100] "A" ADM_PC_BP25
+ SG_ Voltage_U_29 m4 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+ SG_ Voltage_V_29 m5 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+ SG_ Voltage_W_29 m6 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+ SG_ Voltage_DC_29 m7 : 0|16@1+ (0.1,0) [0|1500] "V" ADM_PC_BP25
+ SG_ point_29 : 21|3@1+ (1,0) [0|7] "" ADM_PC_BP25
+
+BO_ 2634481734 _AFE_Calibration_Offset_Update_2: 6 User
+ SG_ Calibration_Index_29 M : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Current_V_29 m1 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Current_W_29 m2 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Voltage_U_29 m3 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Voltage_V_29 m4 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Voltage_W_29 m5 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ Voltage_DC_29 m6 : 0|16@1- (1,0) [-32768|32767] "ADC Counts" ADM_PC_BP25
+ SG_ CRC_29 : 32|16@1+ (1,0) [0|65535] "-" ADM_PC_BP25
+
+BO_ 2634481735 _AFE_Calibration_Scale_Update_29: 6 User
+ SG_ Calibration_Index_29 M : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Current_V_29 m1 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Current_W_29 m2 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Voltage_U_29 m3 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Voltage_V_29 m4 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Voltage_W_29 m5 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ Voltage_DC_29 m6 : 0|16@1- (0.0000152587890625,0) [-0.5000000000000000|0.4999847412109375] "scale = 1.0 + value" ADM_PC_BP25
+ SG_ CRC_29 : 32|16@1+ (1,0) [0|65535] "-" ADM_PC_BP25
+
+BO_ 2634514513 _AFE_Calibration_Adc_Scale_29: 6 ADM_PC_BP25
+ SG_ Adc_Index_29 M : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Current_V_29 m1 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Current_W_29 m2 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Voltage_U_29 m3 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Voltage_V_29 m4 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Voltage_W_29 m5 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+ SG_ Voltage_DC_29 m6 : 0|32@1+ (1,0) [0|4294967295] "1 / adc_bins" User
+
+BO_ 2634514514 _AFE_Calibration_Adc_Fs_29: 6 ADM_PC_BP25
+ SG_ Adc_Index_29 M : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Current_V_29 m1 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Current_W_29 m2 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Voltage_U_29 m3 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Voltage_V_29 m4 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Voltage_W_29 m5 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+ SG_ Voltage_DC_29 m6 : 0|32@1+ (1,0) [0|4294967295] "Fullscale" User
+
+BO_ 2634514515 _AFE_Calibration_Adc_Offset_29: 4 ADM_PC_BP25
+ SG_ Adc_Index_29 M : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Current_V_29 m1 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Current_W_29 m2 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_U_29 m3 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_V_29 m4 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_W_29 m5 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_DC_29 m6 : 0|16@1- (1,0) [-32768|32767] "-" User
+
+BO_ 2634514516 _AFE_Calibration_Adc_Gain_29: 4 ADM_PC_BP25
+ SG_ Adc_Index_29 M : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Current_U_29 m0 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Current_V_29 m1 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Current_W_29 m2 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_U_29 m3 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_V_29 m4 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_W_29 m5 : 0|16@1- (1,0) [-32768|32767] "-" User
+ SG_ Voltage_DC_29 m6 : 0|16@1- (1,0) [-32768|32767] "-" User
+
+BO_ 2634514518 AFE_Interlock_Faults_29: 2 ADM_PC_BP25
+ SG_ Current_U_High_29 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_U_Low_29 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_V_High_29 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_V_Low_29 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_W_High_29 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Current_W_Low_29 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Voltage_DC_29 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Reboot_29 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Unknown_29 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+BO_TX_BU_ 2634481728 : User,ADM_PC_LL25,ADM_PC_BC25,ADM_PC_BI25;
+BO_TX_BU_ 2634481731 : User,ADM_PC_LL25,ADM_PC_BC25,ADM_PC_BI25;
+BO_TX_BU_ 2634481732 : User,ADM_PC_LL25,ADM_PC_BC25,ADM_PC_BI25;
+CM_ BO_ 2634514432  "Identification of the device";
+CM_ BO_ 2634514433  "Git revision of the DSP firmware";
+CM_ BO_ 2634514445  "Git revision of the bootloader firmware.";
+CM_ BO_ 2634514434  "Values for debugging of HW/SW problems";
+CM_ BO_ 2634514439  "Status bitfield";
+CM_ BO_ 2634514438  "Fault bitfield";
+CM_ BO_ 2634514435  "Current of phases U, V, W";
+CM_ BO_ 2634514448  "Current of of the DC Bus";
+CM_ BO_ 2634514446  "All AFEs will listen to this message";
+CM_ BO_ 2634514443  "RMS Current of phases U, V, W";
+CM_ BO_ 2634514444  "Three-Phase mains health (frequency, phase...)";
+CM_ BO_ 2634514437  "Readouts of the module temperature sensors";
+CM_ BO_ 2634514440  "Setpoints";
+CM_ BO_ 2634514441  "Setpoints";
+CM_ BO_ 2634481760  "Keep alive ping message. ";
+CM_ BO_ 2634481728  "Operation Mode control: sets the converter operation mode";
+CM_ BO_ 2634481744  "Fault Control: actions to clear faults and reset the system";
+CM_ BO_ 2634481729  "Reactive power setpoint control.";
+CM_ BO_ 2634481730  "PWM duty cycle control";
+CM_ BO_ 2634481731  "Current setpoint control";
+CM_ BO_ 2634481732  "Voltage setpoint control";
+CM_ BO_ 2634481736  "Frequency setpoint control";
+CM_ BO_ 2634481737  "Phase setpoint control";
+CM_ BO_ 2634481776  "Additional voltage and current setpoints in single-phase rectifier and inverter control modes.";
+CM_ BO_ 2634481733  "PFC stack control";
+CM_ BO_ 2634481712  "Set the input and output voltage limits (minimum and maximum)";
+CM_ BO_ 2634481713  "Set the output current limits (mminimum and maximum)";
+CM_ BO_ 2634481740  "Set the Group ID of the device";
+CM_ BO_ 2634514447  "Contains the Group ID of the device";
+CM_ BO_ 2634481761  "Control the system flags";
+CM_ BO_ 2634514464  "Current of phases A and B";
+CM_ BO_ 2634514465  "Current of phases A and B";
+CM_ BO_ 2634481738  "Automatic ADC calibration.";
+CM_ BO_ 2634481739  "Setpoint for automatic ADC calibration.";
+CM_ BO_ 2634481734  "Update of the calibration table for offsets.";
+CM_ BO_ 2634481735  "Update of the calibration table for scales.";
+CM_ BO_ 2634514513  "
+                Adc scale (resolution) value of readouts.
+            ";
+CM_ BO_ 2634514514  "
+                Adc fullscale value of readouts.
+            ";
+CM_ BO_ 2634514515  "
+                Readout of ADC calibration data (offset) from EEPROM.
+            ";
+CM_ BO_ 2634514516  "
+                Readout of ADC calibration data (gain) from EEPROM.
+            ";
+CM_ BO_ 2634514518  "Fault bitfield";
+
+CM_ SG_ 2634514432 Device_type_29 "The device identification field, uniquely identifies the sender in the network";
+CM_ SG_ 2634514432 HW_revision_29 "The hardware revision number";
+CM_ SG_ 2634514432 HW_variant_29 "The DSP firmware revision number";
+CM_ SG_ 2634514432 Stack_position_29 "Position of the module within the stack";
+CM_ SG_ 2634514432 SN_number_29 "Unique module serial number";
+CM_ SG_ 2634514433 FW_revision_0_29 "Character 0";
+CM_ SG_ 2634514433 FW_revision_1_29 "Character 1";
+CM_ SG_ 2634514433 FW_revision_2_29 "Character 2";
+CM_ SG_ 2634514433 FW_revision_3_29 "Character 3";
+CM_ SG_ 2634514433 FW_revision_4_29 "Character 3";
+CM_ SG_ 2634514433 FW_revision_5_29 "Character 3";
+CM_ SG_ 2634514433 FW_revision_6_29 "Character 3";
+CM_ SG_ 2634514433 FW_revision_7_29 "Character 7";
+CM_ SG_ 2634514433 FW_revision_8_29 "Character 8";
+CM_ SG_ 2634514433 FW_revision_9_29 "Character 9";
+CM_ SG_ 2634514433 FW_revision_10_29 "Character 10";
+CM_ SG_ 2634514433 FW_revision_11_29 "Character 11";
+CM_ SG_ 2634514433 FW_revision_12_29 "Character 12";
+CM_ SG_ 2634514433 FW_revision_13_29 "Character 13";
+CM_ SG_ 2634514433 FW_datecode_0_29 "Character 0";
+CM_ SG_ 2634514433 FW_datecode_1_29 "Character 1";
+CM_ SG_ 2634514433 FW_datecode_2_29 "Character 2";
+CM_ SG_ 2634514433 FW_datecode_3_29 "Character 3";
+CM_ SG_ 2634514433 FW_datecode_4_29 "Character 3";
+CM_ SG_ 2634514433 FW_datecode_5_29 "Character 3";
+CM_ SG_ 2634514433 FW_datecode_6_29 "Character 3";
+CM_ SG_ 2634514433 FW_datecode_7_29 "Character 7";
+CM_ SG_ 2634514433 FW_datecode_8_29 "Character 8";
+CM_ SG_ 2634514433 FW_datecode_9_29 "Character 9";
+CM_ SG_ 2634514433 FW_datecode_10_29 "Character 10";
+CM_ SG_ 2634514433 FW_datecode_11_29 "Character 11";
+CM_ SG_ 2634514433 FW_datecode_12_29 "Character 12";
+CM_ SG_ 2634514433 FW_datecode_13_29 "Character 13";
+CM_ SG_ 2634514445 FW_revision_0_29 "Character 0";
+CM_ SG_ 2634514445 FW_revision_1_29 "Character 1";
+CM_ SG_ 2634514445 FW_revision_2_29 "Character 2";
+CM_ SG_ 2634514445 FW_revision_3_29 "Character 3";
+CM_ SG_ 2634514445 FW_revision_4_29 "Character 3";
+CM_ SG_ 2634514445 FW_revision_5_29 "Character 3";
+CM_ SG_ 2634514445 FW_revision_6_29 "Character 3";
+CM_ SG_ 2634514445 FW_revision_7_29 "Character 7";
+CM_ SG_ 2634514445 FW_revision_8_29 "Character 8";
+CM_ SG_ 2634514445 FW_revision_9_29 "Character 9";
+CM_ SG_ 2634514445 FW_revision_10_29 "Character 10";
+CM_ SG_ 2634514445 FW_revision_11_29 "Character 11";
+CM_ SG_ 2634514445 FW_revision_12_29 "Character 12";
+CM_ SG_ 2634514445 FW_revision_13_29 "Character 13";
+CM_ SG_ 2634514445 FW_datecode_0_29 "Character 0";
+CM_ SG_ 2634514445 FW_datecode_1_29 "Character 1";
+CM_ SG_ 2634514445 FW_datecode_2_29 "Character 2";
+CM_ SG_ 2634514445 FW_datecode_3_29 "Character 3";
+CM_ SG_ 2634514445 FW_datecode_4_29 "Character 3";
+CM_ SG_ 2634514445 FW_datecode_5_29 "Character 3";
+CM_ SG_ 2634514445 FW_datecode_6_29 "Character 3";
+CM_ SG_ 2634514445 FW_datecode_7_29 "Character 7";
+CM_ SG_ 2634514445 FW_datecode_8_29 "Character 8";
+CM_ SG_ 2634514445 FW_datecode_9_29 "Character 9";
+CM_ SG_ 2634514445 FW_datecode_10_29 "Character 10";
+CM_ SG_ 2634514445 FW_datecode_11_29 "Character 11";
+CM_ SG_ 2634514445 FW_datecode_12_29 "Character 12";
+CM_ SG_ 2634514445 FW_datecode_13_29 "Character 13";
+CM_ SG_ 2634514434 Status_Error_Code_29 "Main status / error code as defined in errno/errno.h";
+CM_ SG_ 2634514434 Data_1_29 "Additional information for the error/status";
+CM_ SG_ 2634514434 Data_2_29 "Additional information for the error/status";
+CM_ SG_ 2634514434 Data_3_29 "Additional information for the error/status";
+CM_ SG_ 2634514439 Running_29 "Indicates if converter is running.";
+CM_ SG_ 2634514439 PWM_29 "Indicates if converter is in PWM control mode.";
+CM_ SG_ 2634514439 Current_dc_loop_mode_29 "Indicates if the current DC loop is enabled.";
+CM_ SG_ 2634514439 Current_ac_loop_mode_29 "Indicates if the current AC loop is enabled.";
+CM_ SG_ 2634514439 Buck_29 "Indicates if converter is in buck control mode.";
+CM_ SG_ 2634514439 Boost_29 "Indicates if converter is in boost control mode.";
+CM_ SG_ 2634514439 Precharge_dc_buck_mode_29 "Indicates if the precharge DC mode is enabled - buck direction.";
+CM_ SG_ 2634514439 Precharge_dc_boost_mode_29 "Indicates if the precharge DC mode is enabled - boost direction.";
+CM_ SG_ 2634514439 Rectifier_3ph_29 "Indicates if converter is in three-phase rectifier control mode.";
+CM_ SG_ 2634514439 Stack_mode_29 "Indicates if converter is operating in stack mode.";
+CM_ SG_ 2634514439 Master_29 "Indicates if converter is master in the stack.";
+CM_ SG_ 2634514439 Slave_29 "Indicates if converter is slave in the stack.";
+CM_ SG_ 2634514439 Inverter_1ph_29 "Indicates if converter is in single-phase inverter control mode.";
+CM_ SG_ 2634514439 Boost_Neutral_29 "Indicates if converter is in boost control mode with neutral generation.";
+CM_ SG_ 2634514439 Rectifier_1ph_29 "Indicates if converter is in single-phase rectifier control mode.";
+CM_ SG_ 2634514439 Inverter_3ph_29 "Indicates if converter is in three-phase inverter control mode.";
+CM_ SG_ 2634514439 Ready_29 "Indicates if converter is ready for operation.";
+CM_ SG_ 2634514439 Inverter_1ph_Sync_29 "Single-phase inverter control mode with phase synchronization.";
+CM_ SG_ 2634514439 Neutral_29 "Open-loop neutral generation.";
+CM_ SG_ 2634514439 Rectifier_1ph_Buck_29 "Single-phase rectifier with buck on one leg.";
+CM_ SG_ 2634514439 Inverter_1ph_Boost_29 "Single-phase inverter with boost on one leg.";
+CM_ SG_ 2634514439 Rectifier_distributed_29 "Not available at the moment";
+CM_ SG_ 2634514439 MPPT_buck_29 "Not available at the moment";
+CM_ SG_ 2634514439 MPPT_boost_29 "Not available at the moment";
+CM_ SG_ 2634514439 Buck_2p_float_29 "Buck in phases L1 and L2. Phase L3 is left floating (high impedance)";
+CM_ SG_ 2634514439 Inverter_1ph_Distributed_29 "Single-phase inverter mode  distributed";
+CM_ SG_ 2634514438 Protection_trip_internal_29 "This flagg is asserted if the interlock is open due to an internal fault condition (self-protection)";
+CM_ SG_ 2634514438 Protection_trip_external_29 "This flag is asserted if the interlock is open due to an external condition received in the module.";
+CM_ SG_ 2634514438 Phase_U_overcurrent_29 "Indicates an overcurrent event on Phase U. The overcurrent event is triggered when the measured phase current is over the programmed current limit.";
+CM_ SG_ 2634514438 Phase_U_overvoltage_29 "Indicates an overvoltage event on Phase U. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_U_undervoltage_29 "Indicates an undervoltage event on Phase U. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_V_overvoltage_29 "Indicates an overvoltage event on Phase V. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_V_undervoltage_29 "Indicates an undervoltage event on Phase U. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_V_overcurrent_29 "Indicates an overcurrent event on Phase U. The overcurrent event is triggered when the measured phase current is over the programmed current limit.";
+CM_ SG_ 2634514438 Phase_W_overvoltage_29 "Indicates an overvoltage event on Phase U. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_W_undervoltage_29 "Indicates an undervoltage event on Phase U. The overvoltage event is triggered when the measured phase voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 Phase_W_overcurrent_29 "Indicates an overcurrent event on Phase U. The overcurrent event is triggered when the measured phase current is over the programmed current limit.";
+CM_ SG_ 2634514438 DC_undervoltage_29 "DC bus undervoltage condition. The undervoltage condition is asserted when the measured dc bus voltage is under the programmed voltage limit.";
+CM_ SG_ 2634514438 DC_overvoltage_29 "DC bus overvoltage condition. The overvoltage condition is asserted when the measured dc bus voltage is over the programmed voltage limit.";
+CM_ SG_ 2634514438 MOSFET_overtemperature_29 "This flag is asserted when the temperature of the MOSFET block is too high.";
+CM_ SG_ 2634514438 Inductor_overtemperature_29 "This flag is asserted when the temperature of the inductor block is too high.";
+CM_ SG_ 2634514438 Keep_Alive_not_served_29 "The Keep Alive feature is enabled but it was not served with the periodic message.";
+CM_ SG_ 2634514438 PLL_not_locked_29 "Flag asserted when in rectifier modes, the PLL went out of lock condition";
+CM_ SG_ 2634514438 Measurement_system_failure_29 "The voltages/currents measurement system is malfunctionning, and readouts are not guaranteed to be accurate.";
+CM_ SG_ 2634514438 EEPROM_failure_29 "The configuration EEPROM failed to load or save the module configuration.";
+CM_ SG_ 2634514435 Phase_U_29 "Phase current is the MOSFET loop current, in the branch U of the converter.";
+CM_ SG_ 2634514435 Phase_V_29 "Phase current is the MOSFET loop current, in the branch V of the converter.";
+CM_ SG_ 2634514435 Phase_W_29 "Phase current is the MOSFET loop current, in the branch W of the converter.";
+CM_ SG_ 2634514448 Bus_current_29 "DC Bus current is possitive when current goes from input to output";
+CM_ SG_ 2634514446 Phase_U_29 "Phase current is the MOSFET loop current, in the branch U of the converter.";
+CM_ SG_ 2634514446 Phase_V_29 "Phase current is the MOSFET loop current, in the branch V of the converter.";
+CM_ SG_ 2634514446 Phase_W_29 "Phase current is the MOSFET loop current, in the branch W of the converter.";
+CM_ SG_ 2634514446 Stack_position_29 "Sender Stack position";
+CM_ SG_ 2634514446 Group_ID_29 "Sender Group ID";
+CM_ SG_ 2634514443 Phase_U_29 "RMS Phase current is the MOSFET loop current, in the branch U of the converter.";
+CM_ SG_ 2634514443 Phase_V_29 "RMS Phase current is the MOSFET loop current, in the branch V of the converter.";
+CM_ SG_ 2634514443 Phase_W_29 "RMS Phase current is the MOSFET loop current, in the branch W of the converter.";
+CM_ SG_ 2634514444 Frequency_29 "Frequency of Three-Phase system";
+CM_ SG_ 2634514444 Phase_29 "Phase of Three-Phase system";
+CM_ SG_ 2634514437 Temp_Bridge_29 "Temperature of the MOSFET block";
+CM_ SG_ 2634514437 Temp_Inductors_29 "Temperature of the inductors";
+CM_ SG_ 2634514440 Phase_U_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634514440 Phase_V_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634514440 Phase_W_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634514441 Current_setpoint_29 "The actual current setpoint";
+CM_ SG_ 2634514441 Voltage_setpoint_29 "The actual voltage setpoint";
+CM_ SG_ 2634514441 Frequency_setpoint_29 "The actual frequency setpoint";
+CM_ SG_ 2634481760 Keep_Alive_Enable_29 "If set to 1, module will expect to receive this message every second repeatedly, or it will stop operation";
+CM_ SG_ 2634481728 Converter_ON_29 "Enable the converter.";
+CM_ SG_ 2634481728 PWM_ON_29 "Enable the PWM control mode.";
+CM_ SG_ 2634481728 DC_Current_feedback_ON_29 "Enable the DC current loop";
+CM_ SG_ 2634481728 AC_Current_feedback_ON_29 "Enable the AC current loop";
+CM_ SG_ 2634481728 Buck_ON_29 "Enable the buck control mode.";
+CM_ SG_ 2634481728 Boost_ON_29 "Enable the boost control mode.";
+CM_ SG_ 2634481728 Rectifier_3ph_ON_29 "Enable the three-phase rectifier control mode.";
+CM_ SG_ 2634481728 Inverter_1ph_ON_29 "Enable the single-phase inverter control mode.";
+CM_ SG_ 2634481728 Rectifier_1ph_ON_29 "Enable the single-phase rectifier control mode.";
+CM_ SG_ 2634481728 Boost_Neutral_ON_29 "Enable the boost control mode with neutral generation.";
+CM_ SG_ 2634481728 Inverter_3ph_ON_29 "Enable the three-phase inverter control mode.";
+CM_ SG_ 2634481728 Inverter_1ph_Sync_ON_29 "Single-phase inverter control mode with phase synchronization.";
+CM_ SG_ 2634481728 Neutral_ON_29 "Open-loop neutral generation.";
+CM_ SG_ 2634481728 Rectifier_1ph_Buck_ON_29 "Single-phase rectifier with buck on one leg.";
+CM_ SG_ 2634481728 Inverter_1ph_Boost_ON_29 "Single-phase inverter with boost on one leg.";
+CM_ SG_ 2634481728 Rectifier_Distributed_ON_29 "Single-phase (floating) distributed rectifier";
+CM_ SG_ 2634481728 MPPT_buck_ON_29 "MPPT buck";
+CM_ SG_ 2634481728 MPPT_boost_ON_29 "MPPT boost";
+CM_ SG_ 2634481728 Buck_2p_float_ON_29 "Boost on L1 and L2. Floating L3 (high-impedance)";
+CM_ SG_ 2634481728 Inverter_1ph_Distributed_ON_29 "Single-phase inverter mode distributed";
+CM_ SG_ 2634481744 Clear_Interlock_29 "Clears the converter interlock";
+CM_ SG_ 2634481744 Reset_Processor_29 "Reset the converter DSP";
+CM_ SG_ 2634481744 Trip_Interlock_29 "Trip the inetrnal Interlock";
+CM_ SG_ 2634481729 Reactive_current_setpoint_29 "This defines reactive current setpoint for 3-phase rectifier mode";
+CM_ SG_ 2634481730 Phase_U_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634481730 Phase_V_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634481730 Phase_W_29 "The actual PWM duty cycle setpoint";
+CM_ SG_ 2634481731 Current_setpoint_29 "Sets the output current setpoint. Active only when the current loop is enabled";
+CM_ SG_ 2634481732 Voltage_setpoint_29 "Sets the output voltage setpoint. Active only when the voltage loop is enabled";
+CM_ SG_ 2634481736 Frequency_setpoint_29 "Sets the frequency for single-phase and three-phase generator modes.";
+CM_ SG_ 2634481737 Phase_setpoint_29 "Sets the phase for inverter control modes.";
+CM_ SG_ 2634481733 Stack_position_29 "The converter position within the stack";
+CM_ SG_ 2634481733 Stack_size_29 "How many PFC converters are in stack in total";
+CM_ SG_ 2634481733 SN_number_29 "Unique module serial number";
+CM_ SG_ 2634481712 Phase_voltage_min_29 "Minimum tolerated phase voltage";
+CM_ SG_ 2634481712 Phase_voltage_max_29 "Maximum allowable phase voltage";
+CM_ SG_ 2634481712 DC_voltage_min_29 "Minimum allowable dc voltage";
+CM_ SG_ 2634481712 DC_voltage_max_29 "Maximum allowable dc voltage";
+CM_ SG_ 2634481713 Phase_current_min_29 "Minimum allowable output current";
+CM_ SG_ 2634481713 Phase_current_max_29 "Maximum allowable output current";
+CM_ SG_ 2634481740 Group_ID_29 "Desired group ID for the device";
+CM_ SG_ 2634514447 Group_ID_29 "Group ID of the device";
+CM_ SG_ 2634481761 Factory_mode_29 "Customers MUST NOT USE this bit. If set to 1, module will enter in factory mode. ";
+CM_ SG_ 2634481761 Silent_CAN_mode_29 "Customers MUST NOT USE this bit. If set to 1, module will enter in factory mode. ";
+CM_ SG_ 2634481738 start_29 "Start automatic calibration. Multiplexer index must be 0!";
+CM_ SG_ 2634481739 point_29 "Calibration point index.";
+CM_ SG_ 2634481734 CRC_29 "Checksum of bytes 0 to 3, CRC-CCITT, corresponding to qChecksum (www.qt.io)";
+CM_ SG_ 2634481735 CRC_29 "Checksum of bytes 0 to 3, CRC-CCITT, corresponding to qChecksum (www.qt.io)";
+CM_ SG_ 2634514518 Current_U_High_29 "This flag is set if a hight current on U tripped the internal interlock";
+CM_ SG_ 2634514518 Current_U_Low_29 "This flag is set if a low current on U tripped the internal interlock";
+CM_ SG_ 2634514518 Current_V_High_29 "This flag is set if a hight current on V tripped the internal interlock";
+CM_ SG_ 2634514518 Current_V_Low_29 "This flag is set if a low current on V tripped the internal interlock";
+CM_ SG_ 2634514518 Current_W_High_29 "This flag is set if a hight current on W tripped the internal interlock";
+CM_ SG_ 2634514518 Current_W_Low_29 "This flag is set if a low current on W tripped the internal interlock";
+CM_ SG_ 2634514518 Voltage_DC_29 "This flag is set if a voltage on DC tripped the internal interlock";
+CM_ SG_ 2634514518 Reboot_29 "This flag is set if a reboot tripped the internal interlock";
+CM_ SG_ 2634514518 Unknown_29 "This flag the reason for the internal interlock is unknown";
+
+
+BA_DEF_ BO_ "SystemMessageLongSymbol" STRING;
+
+
+BA_ "SystemMessageLongSymbol" BO_ 2634481729 "AFE_Reactive_Current_Setpoint_Control_29";
+BA_ "SystemMessageLongSymbol" BO_ 2634481736 "AFE_Frequency_Setpoint_Control_29";
+BA_ "SystemMessageLongSymbol" BO_ 2634481776 "AFE_Rectifier_Setpoint_Control_29";
+BA_ "SystemMessageLongSymbol" BO_ 2634481734 "_AFE_Calibration_Offset_Update_29";
+
+
+VAL_ 2634514432 Device_type_29 7 "AFE";
+VAL_ 2634514438 Protection_trip_internal_29 1 "fault";
+VAL_ 2634514438 Protection_trip_external_29 1 "fault";
+VAL_ 2634514438 Phase_U_overcurrent_29 1 "fault";
+VAL_ 2634514438 Phase_U_overvoltage_29 1 "fault";
+VAL_ 2634514438 Phase_U_undervoltage_29 1 "fault";
+VAL_ 2634514438 Phase_V_overvoltage_29 1 "fault";
+VAL_ 2634514438 Phase_V_undervoltage_29 1 "fault";
+VAL_ 2634514438 Phase_V_overcurrent_29 1 "fault";
+VAL_ 2634514438 Phase_W_overvoltage_29 1 "fault";
+VAL_ 2634514438 Phase_W_undervoltage_29 1 "fault";
+VAL_ 2634514438 Phase_W_overcurrent_29 1 "fault";
+VAL_ 2634514438 DC_undervoltage_29 1 "fault";
+VAL_ 2634514438 DC_overvoltage_29 1 "fault";
+VAL_ 2634514438 MOSFET_overtemperature_29 1 "fault";
+VAL_ 2634514438 Inductor_overtemperature_29 1 "fault";
+VAL_ 2634514438 Keep_Alive_not_served_29 1 "fault";
+VAL_ 2634514438 PLL_not_locked_29 1 "fault";
+VAL_ 2634514438 NFO_29 1 "fault";
+VAL_ 2634514438 Measurement_system_failure_29 1 "fault";
+VAL_ 2634514438 EEPROM_failure_29 1 "fault";
+VAL_ 2634514438 System_29 1 "fault";
+VAL_ 2634514518 Current_U_High_29 1 "fault";
+VAL_ 2634514518 Current_U_Low_29 1 "fault";
+VAL_ 2634514518 Current_V_High_29 1 "fault";
+VAL_ 2634514518 Current_V_Low_29 1 "fault";
+VAL_ 2634514518 Current_W_High_29 1 "fault";
+VAL_ 2634514518 Current_W_Low_29 1 "fault";
+VAL_ 2634514518 Voltage_DC_29 1 "fault";
+VAL_ 2634514518 Reboot_29 1 "fault";
+VAL_ 2634514518 Unknown_29 1 "fault";
+SIG_VALTYPE_ 2634514513 Current_U_29 : 1;
+SIG_VALTYPE_ 2634514513 Current_V_29 : 1;
+SIG_VALTYPE_ 2634514513 Current_W_29 : 1;
+SIG_VALTYPE_ 2634514513 Voltage_U_29 : 1;
+SIG_VALTYPE_ 2634514513 Voltage_V_29 : 1;
+SIG_VALTYPE_ 2634514513 Voltage_W_29 : 1;
+SIG_VALTYPE_ 2634514513 Voltage_DC_29 : 1;
+SIG_VALTYPE_ 2634514514 Current_U_29 : 1;
+SIG_VALTYPE_ 2634514514 Current_V_29 : 1;
+SIG_VALTYPE_ 2634514514 Current_W_29 : 1;
+SIG_VALTYPE_ 2634514514 Voltage_U_29 : 1;
+SIG_VALTYPE_ 2634514514 Voltage_V_29 : 1;
+SIG_VALTYPE_ 2634514514 Voltage_W_29 : 1;
+SIG_VALTYPE_ 2634514514 Voltage_DC_29 : 1;
